@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: "Jost", sans-serif;
+    background-color: #ffffff;
+    color: black;
+    height: 100%;
+    width: auto;
+    overflow-x: hidden;
+}
+.header {
+    background-color: #ffffff;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    border-bottom: 1px solid #ffff;
+}
+
+.header,
+.barraSearch,
+.logoHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logolotus img {
+    width: 220px;
+}
+
+.search {
+    /*estilisa a barra de pesquisa*/
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    background: none;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    width: 300px;
+    color: #000000;
+}
+
+.search::placeholder {
+    color: #000000;
+}
+
+.navHeader {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #383838;
+}
+
+.dropbtn,#Retro {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 16px;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #a5a5a5;
+}
+
+.dropdown:hover .dropdown-content {
+    background-color: #fcfcfc;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    /*box-shadow: 1.5px 1.5px .5px .5px rgb(124, 124, 124);*/
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 15px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+#Retro:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.timesInt {
+    padding: 30px;
+}
+.timesInt h4 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.timesBr {
+    padding: 30px;
+    text-align: center;
+}
+
+.selecao {
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#mainCamisa {
+    border-radius: 40px;
+    padding: 24px;
+}
+
+.containers img {
+    display: flex;
+    height: 130px;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+
+.textProdutos {
+    max-width: 500px;
+    padding: 30px;
+    padding-right: 100px;
+}
+
+.textProdutos img {
+    border-radius: 20px;
+}
+
+.textProdutos h3 {
+    padding: 30px 0px;
+}
+
+.textProdutos p {
+    max-width: 600px;
+    font-size: 22px;
+}
+
+#tamanho {
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    padding: 12px;
+    background-color: #e9e9ed;
+    border: none;
+    border-radius: 10px;
+}
+
+#quantidade {
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 186px;
+    padding: 12px;
+    background-color: #e9e9ed;
+    border: none;
+    border-radius: 10px;
+}
+
+.submits{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.personalizacao{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.botao button{
+  font-family: "Jost", sans-serif;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  background-color: #000000;
+  color: #fcfcfc;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.botao button:hover{
+  background-color: #e9e9ed;
+  color: #000000;
+}
+
+footer{
+  background-color: #111111;
+  color: #fcfcfc;
+  padding: 80px;
+}
+
+.allFooter{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sobreNos{
+  max-width: 300px;
+}
+
+.sobreNos a{
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.sobreNos p{
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+.entreContato p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.entreContato a{
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.linkRedes{
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.linkRedes a{
+  border: none;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.logo img{
+  float: right;
+  margin: 0;
+  width: 300px;
+  margin-right: 150px;
+}
+
+.whatsapp-float {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  background-color: green;
+  border-radius: 150px;
+  padding: 18px;
+  text-align: center;
+  color: #fcfcfc;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
